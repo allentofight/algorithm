@@ -85,22 +85,22 @@ public class Solution {
 
         /**
          * 递归翻转结点 node 开始的链表
-         * @param head
+         * @param node
          * @return
          */
-        public Node invertLinkedList(Node head) {
-            if (head.next == null) {
-                return head;
+        public Node invertLinkedList(Node node) {
+            if (node.next == null) {
+                return node;
             }
 
-            // 步骤 1: 先翻转 head 之后的链表
-            Node newHead = invertLinkedList(head.next);
+            // 步骤 1: 先翻转 node 之后的链表
+            Node newHead = invertLinkedList(node.next);
 
-            // 步骤 2: 再把head节点的后继结节指向 head，head 的后继节点设置为空
-            head.next.next = head;
-            head.next = null;
+            // 步骤 2: 再把 node 节点后继结点的后继结点(3)指向 node，node 的后继节点设置为空
+            node.next.next = node;
+            node.next = null;
 
-            // 步骤 3
+            // 步骤 3: 返回翻转后的头结点
             return newHead;
         }
 
@@ -280,9 +280,9 @@ public class Solution {
         // linkedList.removeSelectedNode(tmp);
 
         // 递归翻转
-        //  Node newHead = linkedList.invertLinkedList(linkedList.head.next);
-        // linkedList.head.next = newHead;
-        // linkedList.printList();
+          Node newHead = linkedList.invertLinkedList(linkedList.head.next);
+         linkedList.head.next = newHead;
+         linkedList.printList();
 
         // 迭代翻转
         // linkedList.iterationInvertLinkedList();
@@ -297,7 +297,7 @@ public class Solution {
         // linkedList.printList();
 
         // 逆序每 k 个一组翻转链表
-        linkedList.reverseIterationInvertLinkedListEveryK(3);
-        linkedList.printList();
+//        linkedList.reverseIterationInvertLinkedListEveryK(3);
+//        linkedList.printList();
     }
 }
