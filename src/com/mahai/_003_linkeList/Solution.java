@@ -1,4 +1,4 @@
-package com.mahai._004_linkeList;
+package com.mahai._003_linkeList;
 
 
 import java.util.ArrayList;
@@ -178,7 +178,7 @@ public class Solution {
         }
 
         /**
-         * 每 k 个一组翻转链表
+         * 顺序每 k 个一组翻转链表
          * @param k
          */
         public void iterationInvertLinkedListEveryK(int k) {
