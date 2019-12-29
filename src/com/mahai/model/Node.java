@@ -13,26 +13,13 @@ package com.mahai.model;
  * 链表的结点
  */
 public class Node {
-    private int data;// 节点的对象，即内容
+    public int data;// 节点的对象，即内容
 
-    public Node getNext() {
-        return next;
+    // 节点的引用，指向下一个节点,注意：属性不能定义为public,这里只是为了演示方便,生产中还是要定义成 private!
+    public Node next = null;
+
+    public Node(int val) {
+        data = val;
     }
 
-    private Node next = null;// 节点的引用，指向下一个节点
-
-    public Node(int data) {
-        this.data = data;
-    }
-    public void setNext(Node next) {
-        this.next = next;
-    }
-
-    public int getData() {
-        return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
-    }
 }

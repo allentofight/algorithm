@@ -1,0 +1,5 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç«ô§ýÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(æÌ†Ãþÿÿÿÿ
+Fsquid:EmptyStatementUsageCheckA"Remove this empty statement.(Ñ£ðŠ
+Fsquid:EmptyStatementUsageCheckC"Remove this empty statement.(Êµùî

@@ -1,0 +1,6 @@
+
+Tsquid:UselessImportCheck"+Remove this unused import 'sun.awt.OSInfo'.(Õ‡Ç¹üÿÿÿÿ
+isquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(äßéê8™Ìã’ô-
+nsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(ÕŽ×èúÿÿÿÿ8™Ìã’ô-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ×éàþÿÿÿÿ
+Qsquid:S1191"5Use classes from the Java API instead of Sun classes.(Õ‡Ç¹üÿÿÿÿ
