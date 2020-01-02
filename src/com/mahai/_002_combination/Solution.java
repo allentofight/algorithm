@@ -1,6 +1,5 @@
-package com.mahai._002_permutation;
+package com.mahai._002_combination;
 
-import java.util.Arrays;
 
 public class Solution {
 
