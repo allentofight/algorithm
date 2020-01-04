@@ -227,6 +227,10 @@ public class Solution {
         }
 
 
+        /**
+         * 获得环的入口结点
+         * @return
+         */
         public Node getRingEntryNode() {
             // 获取快慢指针相遇结点
             Node crossNode = detectCrossNode();
@@ -273,36 +277,17 @@ public class Solution {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         LinkedList linkedList1 = new LinkedList();
-        int[] arr1 = {1,2,3,4,5,6,7};
+        int[] arr1 = {1,2,3,4,5,6};
 
 
         for (int i = 0; i < arr1.length; i++) {
             linkedList1.addNode(arr1[i]);
         }
 
+        Node middle = linkedList1.findKthToTail(6);
+        System.out.println("middle = " + middle.data);
 
-        Node middile;
-        Node tmp = linkedList1.head;
-        int length = 3;
-        while (length > 0) {
-            length--;
-            tmp = tmp.next;
-        }
-        middile = tmp;
-
-        tmp = linkedList1.head;
-        while (tmp.next != null) {
-            tmp = tmp.next;
-        }
-        tmp.next = middile;
-
-        Node crossNode = linkedList1.detectCrossNode();
-
-
-
-        Node ringNode = linkedList1.getRingEntryNode();
-        System.out.println("cross.value = " + ringNode.data);
     }
 }

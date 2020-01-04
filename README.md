@@ -12,7 +12,12 @@
 ### [我画了20张图，终于让女朋友学会了翻转链表](https://mp.weixin.qq.com/s/Thxzq5JBWVsKNGWYSH6sDA)
 
 
-* 文中链表相关的所有解法: _003_linkedList
+* 文中链表翻转相关的所有解法: _003_linkeList_invert
+
+### [一文学会链表快慢指针解题技巧](https://mp.weixin.qq.com/s/lMB9i92MPSQvj6jpt1NYFQ)
+
+
+* 文中链表快慢指针相关的所有解法: _004_linkeList_quick_slow_pointer
 
 公众号「码海」,欢迎扫码关注
 
