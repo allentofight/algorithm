@@ -1,4 +1,4 @@
-package com.mahai._003_linkeList;
+package com.mahai._003_linkeList_invert;
 
 
 import java.util.ArrayList;
