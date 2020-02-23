@@ -16,8 +16,14 @@
 
 ### [一文学会链表快慢指针解题技巧](https://mp.weixin.qq.com/s/lMB9i92MPSQvj6jpt1NYFQ)
 
-
 * 文中链表快慢指针相关的所有解法: _004_linkeList_quick_slow_pointer
+
+### [一文学会动态规划解题技巧](https://mp.weixin.qq.com/s/15HSidWyGg5eN--ICNNjFg)
+
+* 文中求三角形最短路径和解法: _006_dp_min_triangle_path
+
+* 凑零钱 dp 解法: _007_dp_min_coins
+
 
 公众号「码海」,欢迎扫码关注
 
