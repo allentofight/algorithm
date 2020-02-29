@@ -20,9 +20,15 @@
 
 ### [一文学会动态规划解题技巧](https://mp.weixin.qq.com/s/15HSidWyGg5eN--ICNNjFg)
 
-* 文中求三角形最短路径和解法: _006_dp_min_triangle_path
+* 文中求三角形最短路径和解法: _005_dp_min_triangle_path
 
-* 凑零钱 dp 解法: _007_dp_min_coins
+* 凑零钱 dp 解法: _006_dp_min_coins
+
+### [贪心算法](https://mp.weixin.qq.com/s/oChrUOKQY5_C0tnFcuE2gA)
+
+* 分糖果解法: _007_candy
+
+* 最小移除区间: _008_duplicate_interval
 
 
 公众号「码海」,欢迎扫码关注
