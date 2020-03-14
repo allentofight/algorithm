@@ -30,6 +30,14 @@
 
 * 最小移除区间: _008_duplicate_interval
 
+### [0-1背包问题](https://mp.weixin.qq.com/s/zWaCXktazYCB8c9XNlyCDg)
+
+* 背包问题（只有重量不考虑价值）递归解法: _009_knapsack_recursive
+* 背包问题（只有重量不考虑价值）dp 解法: _010_knapsack_dp
+* 背包问题（既考虑重量又考虑价值）递归解法: _011_knapsack_value_recursive
+* 背包问题（既考虑重量又考虑价值）dp 解法: _012_knapsack_value_dp
+
+
 
 公众号「码海」,欢迎扫码关注
 
